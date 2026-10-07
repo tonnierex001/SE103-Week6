@@ -1,0 +1,22 @@
+Student Name: Anthony Imbufe
+
+Weak message 1: updates
+Improved message 1:
+update identity notes with auth method
+Why this is better:
+The improved message names the file that changed and the specific field that was added. A teammate reading the history knows exactly what to expect without opening the diff.
+
+Weak message 2: final final
+Improved message 2:
+fix broken link in setup instructions
+Why this is better:
+The original says nothing about what was finished or why. The rewrite states the action and the problem it solves, so the checkpoint has a clear purpose in history.
+
+Weak message 3: stuff
+Improved message 3:
+add practice notes for gitignore patterns
+Why this is better:
+"Stuff" is meaningless to anyone reading the log. The rewrite starts with a verb and names the work that was actually done, which makes the commit easy to find later.
+
+My personal commit message rule:
+My rule is to start every commit message with a verb, like add, fix, update, or remove, and then name the specific thing that changed. I write it for a teammate who was not watching me work, so it explains the purpose and not just the files. If I read only the message in three weeks and cannot tell what it was for, I rewrite it before committing.
