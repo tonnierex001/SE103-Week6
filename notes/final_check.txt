@@ -1,0 +1,12 @@
+Student Name: Anthony Imbufe
+GitHub Username: tonnierex001
+Repository: SE103-Week6
+Repository URL: https://github.com/tonnierex001/SE103-Week6
+
+Git habits I demonstrated this week:
+This week I practiced making two separate small commits instead of one large one, so each change had a clear purpose. I created a .gitignore file and proved that secret.env, practice/app.log, and temp/temp_note.txt were ignored rather than tracked. I rewrote three weak commit messages into clearer ones that start with a verb and name the specific change. I updated the README on a branch, wrote a self review of the change, and merged it through a pull request. Each step was done with git status and git diff before committing, which kept my history clean and easy to read.
+
+One mistake-prevention habit I will keep:
+Before every commit, I will run git status and git diff --staged to see exactly what I am about to save. That habit has already caught a file I nearly staged by accident. Checking the staged set takes seconds and prevents the wrong content from entering history.
+
+All required files are on main: Yes
