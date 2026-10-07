@@ -1,0 +1,13 @@
+Student Name: Anthony Imbufe
+
+What changed:
+I added a new section called "How I use Git carefully" to README.md. It lists four habits I actually follow: inspecting before committing, keeping commits focused, using .gitignore for secrets and temp files, and writing clear commit messages. I did not touch the identity lines at the top of the file.
+
+How I verified the change:
+I ran git diff to read the exact lines I added and confirm the identity lines were unchanged. I ran git status to see that only README.md and notes/pr_self_review.txt were staged. I opened README.md one more time with cat to read it from top to bottom, and the section reads correctly in order.
+
+One possible improvement a reviewer might suggest:
+A reviewer might suggest adding a fifth habit about pulling main regularly to keep branches from drifting too far behind. They might also suggest bolding the section heading or using a numbered list instead of bullets.
+
+Professional response I would give:
+Good catch on the pulling habit. I will add it as a fifth bullet in a follow up commit. I kept the bullets unnumbered because each habit stands alone and does not need priority order.
