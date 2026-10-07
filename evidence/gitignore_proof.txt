@@ -1,0 +1,13 @@
+Student Name: Anthony Imbufe
+
+Patterns in my .gitignore:
+.DS_Store
+*.log
+temp/
+secret.env
+
+What git status showed about the ignored files:
+When I ran git status, the files secret.env, practice/app.log, and temp/temp_note.txt did not appear in the untracked list. That means Git was applying my .gitignore rules and skipping them. To confirm they were being ignored on purpose rather than missing, I ran git status --ignored, and all three appeared under the Ignored files section. The only new file left to commit was .gitignore itself and this evidence file.
+
+Why committing secrets is dangerous:
+Once a secret like an API key lands in a commit, it lives in the repository history even if I delete the file later. Anyone with access to the repo, including future clones, can read that history and reuse the key. Automated bots scan public GitHub repos for leaked keys within minutes, so the exposure is real and fast. The only safe response after a leak is to revoke the key immediately and generate a new one, because rewriting history is complicated and often incomplete. That is why the habit of ignoring secrets before the first commit matters far more than trying to clean up afterward.
