@@ -1,0 +1,5 @@
+Full Name: Anthony Imbufe
+GitHub Username: tonnierex001
+Date Started: 7th October 2026
+Auth Method: PAT
+One Git habit I want to improve: I want to inspect with git status and git diff before every commit so I never stage the wrong file.
